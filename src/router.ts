@@ -1,19 +1,48 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import Home from './views/Home.vue';
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import HomePage from './views/HomePage.vue';
 import AboutVivian from './views/AboutVivian.vue';
-// Import other pages similarly
+import Gallery from './views/Gallery.vue';
+import Memories from './views/Memories.vue';
+import Impact from './views/Impact.vue';
+import ShareMemory from './views/ShareMemory.vue';
 
-Vue.use(Router);
+const routes: Array<RouteRecordRaw> = [
+  {
+    path: '/',
+    name: 'HomePage',
+    component: HomePage
+  },
+  {
+    path: '/about-vivian',
+    name: 'AboutVivian',
+    component: AboutVivian
+  },
+//   {
+//     path: '/gallery',
+//     name: 'Gallery',
+//     component: Gallery
+//   },
+//   {
+//     path: '/memories',
+//     name: 'Memories',
+//     component: Memories
+//   },
+//   {
+//     path: '/impact',
+//     name: 'Impact',
+//     component: Impact
+//   },
+//   {
+//     path: '/share-memory',
+//     name: 'ShareMemory',
+//     component: ShareMemory
+//   },
+  // If you have a 404 page or other routes, define them here
+];
 
-const router = new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [
-    { path: '/', name: 'home', component: Home },
-    { path: '/about-vivian', name: 'about-vivian', component: AboutVivian },
-    // Define other routes similarly
-  ],
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes
 });
 
 export default router;

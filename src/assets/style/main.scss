@@ -1,0 +1,76 @@
+// Variables
+$primary-color: #007bff; // Bootstrap primary color, change as needed
+$secondary-color: #6c757d; // Bootstrap secondary color, change as needed
+$background-color: #f8f9fa; // Light gray background, change as needed
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Mixins
+@mixin transition($property: all, $duration: .3s, $ease: ease) {
+  transition: $property $duration $ease;
+}
+
+// Basic Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+  background-color: $background-color;
+  color: $secondary-color;
+}
+
+// Utility Classes
+.text-primary {
+  color: $primary-color !important;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+// Reusable component styles
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: $primary-color;
+  text-align: center;
+  cursor: pointer;
+  @include transition();
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// Layout
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+// Custom styles for specific components or pages can go here
