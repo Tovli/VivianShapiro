@@ -28,6 +28,10 @@
   footer {
     background-color: #343a40 !important; /* Dark */
     color: #fff; /* Light text */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   </style>
   

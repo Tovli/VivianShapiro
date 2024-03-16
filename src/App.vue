@@ -49,4 +49,8 @@ body {
 main {
   flex-grow: 1;
 }
+
+footer {
+  margin-top: auto;
+}
 </style>

@@ -30,13 +30,28 @@
   <style scoped>
   /* Custom styles for the Home component */
   .home {
-    min-height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f8f9fa;
+    
   }
   
+  .home::before {
+    content: '';
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-attachment: fixed;
+    background-image: url('~@/assets/images/HomeBackground.png');
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  
+  opacity: 0.5;
+  }
   h1 {
     color: #007bff; /* Use a variable or class from your main.scss for consistency */
   }
