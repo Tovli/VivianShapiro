@@ -13,7 +13,7 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/about-vivian">About Vivian</router-link>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <router-link class="nav-link" to="/gallery">Gallery</router-link>
             </li>
             <li class="nav-item">
@@ -24,7 +24,7 @@
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/share-memory">Share a Memory</router-link>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
