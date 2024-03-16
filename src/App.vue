@@ -16,7 +16,7 @@
 import { defineComponent } from 'vue';
 import MainNavbar from './components/MainNavbar.vue';
 import Footer from './components/MainFooter.vue';
-
+ 
 export default defineComponent({
   name: 'App',
   components: {
