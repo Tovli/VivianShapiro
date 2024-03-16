@@ -7,21 +7,19 @@
     <!-- This component dynamically changes based on the route. -->
     <router-view />
 
-    <!-- Footer Component -->
-    <Footer />
+
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import MainNavbar from './components/MainNavbar.vue';
-import Footer from './components/MainFooter.vue';
+
  
 export default defineComponent({
   name: 'App',
   components: {
-    MainNavbar,
-    Footer
+    MainNavbar
   }
 });
 </script>
@@ -50,7 +48,4 @@ main {
   flex-grow: 1;
 }
 
-footer {
-  margin-top: auto;
-}
 </style>
