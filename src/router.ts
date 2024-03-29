@@ -5,6 +5,7 @@ import Gallery from './views/Gallery.vue';
 import Memories from './views/Memories.vue';
 import Impact from './views/Impact.vue';
 import ShareMemory from './views/ShareMemory.vue';
+import FriendsShare from './views/FriendsShare.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -16,6 +17,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/about-vivian',
     name: 'AboutVivian',
     component: AboutVivian
+  },
+  {
+    path: '/friends-share',
+    name: 'FriendsShare',
+    component: FriendsShare
   },
 //   {
 //     path: '/gallery',

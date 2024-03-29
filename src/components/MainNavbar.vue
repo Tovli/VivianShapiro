@@ -13,6 +13,9 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/about-vivian">About Vivian</router-link>
             </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/friends-share">Friends Share</router-link>
+            </li>
             <!-- <li class="nav-item">
               <router-link class="nav-link" to="/gallery">Gallery</router-link>
             </li>
