@@ -117,8 +117,7 @@ Tamar and Inbal Bar-Haim</p>`,
                     description: `<p>במשך שנתיים (2006-2008) ויוי הייתה עבורי אמא שניה בקיבוץ עין חרוד. הגעתי לקיבוץ יחד עם גרעין של חיילים בודדים מארה"ב ולא הכרתי שם אף אחד. מהר מאוד ויוי דאגה להכיר את רובנו ועזרה לנו להסתגל לחיים בקיבוץ. היא סיפרה לי על החוויות שלה כשגם היא הייתה חדשה והגיעה לישראל מדרום אפריקה. תמיד הדלת שלה הייתה פתוחה בפנינו, בכל פעם שהיינו צריכים חיבוק או כוס תה מנחמת. ולא הייתה פעם אחת שלא התקבלתי בחיוך ועם הצחוק הנהדר שהיה כל כך ייחודי לויוי. היא לימדה אותי לשחק משחקי קלפים למיניהם, צירפה אותי לטיולים משפחתיים. אני זוכרת במיוחד פעם שהלכנו לתהלוכת כלבים במעין חרוד. באופן כללי היא פשוט נתנה לי הרגשה שאני חלק מהמשפחה. למעשה כל משפחת שפירא גרמה לי להרגיש כך, ועל זה אני מודה לכם המון: תמנה, ליאור, אלון ויואל</p>
                     <p>שולחת חיבוק, </p>
                     <p>סופי חפץ</p>`,
-                }
-                ,
+                },
                 {
                     image: require('@/assets/images/FriendsJudy.png'),
                     title: 'אלה',
@@ -132,6 +131,16 @@ Tamar and Inbal Bar-Haim</p>`,
                         </ul>
                         <p>אוהבת ומתגעגעת</p>
                         <p>אלה מריאנובסקי</p>`,
+                },
+                {
+                    image: require('@/assets/images/FriendsJudy.png'),
+                    title: 'Terry',
+                    description: `<p>
+Dear family and friends of our beloved Vivian, how heartbroken we all are to have lost such a precious and very special person my darling Vivikins! We have been friends forever, our mothers were even friends and pregnant with us at the same time.</p>
+<p>I will treasure the many memories we shared through childhood and growing up. Vivs beautiful smile, her lust for life, her joy in all she put her mind to will always be an encouragement to me.</p>
+<p>I will remain inspired by Vivs bravery and courage bringing up her family and her passionate love for her children and grandchildren! My darling friend you are in my heart forever there are simply no words to say how much I will miss you! To dearest Tony Ingrid and beautiful children and grandchildren, I wish you long life! We were all so very blessed to have dearest Viv in our lives. Rest in peace my beloved friend.</p>
+<p>Love,</p>
+<p>Terry</p>`,
                 }
             ],
         };
