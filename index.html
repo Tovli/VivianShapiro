@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Image Book Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="viewer">
+    <main class="page" id="page">
+      <img id="pageImg" alt="" />
+      <div class="page-num" id="pageNum"></div>
+    </main>
+
+    <div class="hud" id="hud" aria-live="polite">
+      <div class="hud-row">
+        <button id="prevBtn" class="btn" aria-label="Previous page">Prev</button>
+        <div id="pageLabel" class="page-label"></div>
+        <button id="nextBtn" class="btn" aria-label="Next page">Next</button>
+      </div>
+      <div class="hud-sub" id="status"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
